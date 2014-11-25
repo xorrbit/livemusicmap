@@ -60,7 +60,7 @@ function place_concerts() {
                 var marker = new google.maps.Marker({
                   position: results[0].geometry.location,
                   map: map,
-                  title: "derp " + title
+                  title: title
                 });
                 google.maps.event.addListener(marker, 'click', function() {
                   new google.maps.InfoWindow({
